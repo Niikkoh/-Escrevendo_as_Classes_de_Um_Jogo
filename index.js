@@ -29,6 +29,8 @@ const PLAYER_AGE_3 = 30
 const PLAYER_NAME_4 = "Sonic"
 const PLAYER_AGE_4 = 25
 
+const N = 4
+
 /*=================================================================================================================*/
 
     /*Classe com informações do herói*/
@@ -83,7 +85,7 @@ function main()
 
     /*Printa o ataque na tela de cada herói*/
 
-    for(let i=0; i < 4; i++)
+    for(let i=0; i < N; i++)
         playerOne[i].attack()
 
 }
